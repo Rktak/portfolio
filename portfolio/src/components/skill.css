@@ -1,0 +1,15 @@
+.skill{
+    background-color:white;
+    width: 100vw;
+    height:calc(100vh - 70px);
+    padding-bottom: 50px;
+}
+.name{
+    text-decoration: none;
+    color:black;
+}
+
+.work{
+    padding-top: 10px;
+    
+}

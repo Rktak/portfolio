@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}
+
+/* **********************adding nav style */
+
+
+
+
+
+
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a.nav-link{
+ 
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+}
+.navbar-brand{
+  max-width: 17.25 rem;
+  padding: 0 !important;
+  height: 6rem !important; 
+}
+
+.header-wraper{
+  position: relative;
+  background: url(./charles-deluvio-dClHqW-EfS8-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info{
+  display:flex;
+  position:absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-info h1{
+  
+  color: rgb(128, 50, 89);
+
+  /* text-transform: uppercase; */
+  text-shadow: 2px 2px #264e1e15
+}
+
+
+.typed-text{
+  font-size: 2rem;
+  color: #0A1931;
+}
+
+
+.btn-main-offer{
+  border: 2px solid rgb(128, 50, 89);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 12px 12px;
+  text-decoration: none;
+  color:#0A1931 ;
+  background-color: rgb(128, 50, 89);
+  
+}
+
+
+
+
